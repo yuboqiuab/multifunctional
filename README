@@ -11,7 +11,8 @@ The folder "hamiltonian_input" generates the input for the Wannier Hamiltonian m
 'ss' means interactions between S and S.
 The Wannier Hamiltonian elements are divided into three categories
 (1) intra-layer hopping integrals. 
-    atomic-pair length within 6 angstroms and out of 6 angstroms are trained with different models, as "intra_near" and "intra_long"(2) inter-layer hopping integrals.
+    atomic-pair length within 6 angstroms and out of 6 angstroms are trained with different models, as "intra_near" and "intra_long"
+(2) inter-layer hopping integrals.
     as in the folders "inter", "inter_ss_near", and "inter_ss_long"
 (3) on-site interactions
     as in the folders 'self_m', 'self_s'
