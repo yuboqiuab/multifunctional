@@ -411,7 +411,7 @@ class CrystalGraphDataset(Dataset):
                       dvector[3]=cvector[2]/rad
                       image=list_image[i] 
                   #    image_idx = IMAGE_IDX[image] * nw * nw
-                      compare = 1
+                      compare = 0
                       compare = int(compare) 
 
                       if((ai<int(num/3)) and (aj<int(num/3)) and (a>6.00) and (flag[ai]==flag[aj])):
