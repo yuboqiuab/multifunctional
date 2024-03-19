@@ -1,0 +1,21 @@
+This is the code for the manuscript entitled "Bridging deep learning force fields and electronic structures with a physics-informed approach."
+
+The folder "force_input" generates the input for the force field model.
+
+The folder "force_model" contains the code for training the force field model.
+
+The folder "hamiltonian_input" generates the input for the Wannier Hamiltonian model.
+'mm' means interactions between Mo and Mo.
+'ms' means interactions between Mo and S.
+'sm' means interactions between S and Mo.
+'ss' means interactions between S and S.
+The Wannier Hamiltonian elements are divided into three categories
+(1) intra-layer hopping integrals. 
+    atomic-pair length within 6 angstroms and out of 6 angstroms are trained with different models, as "intra_near" and "intra_long"(2) inter-layer hopping integrals.
+    as in the folders "inter", "inter_ss_near", and "inter_ss_long"
+(3) on-site interactions
+    as in the folders 'self_m', 'self_s'
+
+The folder "hamiltonian_input" generates the input for training the Wannier Hamiltonian elements.
+
+The folder "electronic_band" shows an example about how to use the current model to generate the band structure of a twisted bi-layer MoS2 composed of 201 atoms.
