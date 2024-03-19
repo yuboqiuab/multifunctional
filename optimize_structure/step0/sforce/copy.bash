@@ -1,0 +1,12 @@
+cp *.tar /mnt/data/yuboqi/code_all/h_learning/kinds_intra_long/short_ms2s/
+cp *.tar /mnt/data/yuboqi/code_all/h_learning/kinds_intra_long/short_sm1s/
+cp *.tar /mnt/data/yuboqi/code_all/h_learning/kinds_intra_long/short_ss1s/
+cp *.tar /mnt/data/yuboqi/code_all/h_learning/kinds_intra_long/short_ss2s/
+cp *.tar /mnt/data/yuboqi/code_all/h_learning/kinds_intra/short_ss2s/
+cp *.tar /mnt/data/yuboqi/code_all/h_learning/kinds_intra/short_ss1s/
+cp *.tar /mnt/data/yuboqi/code_all/h_learning/kinds_intra/short_sm1s/
+cp *.tar /mnt/data/yuboqi/code_all/h_learning/kinds_intra/short_ms2s/
+cp *.tar /mnt/data/yuboqi/code_all/h_learning/kinds_inter/short_ms2s/
+cp *.tar /mnt/data/yuboqi/code_all/h_learning/kinds_inter/short_sm1s/
+cp *.tar /mnt/data/yuboqi/code_all/h_learning/kinds_inter/short_ss1s/
+cp *.tar /mnt/data/yuboqi/code_all/h_learning/kinds_inter/short_ss2s/
