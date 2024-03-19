@@ -25,3 +25,19 @@ for ((j=1;j<=662;j=j+1))
 
     done
 
+cd mm1m
+bash do.bash
+cd ../
+
+
+cd ms1s
+bash do.bash
+cd ../
+
+cd sm1m
+bash do.bash 
+cd ../
+
+cd ss1s
+bash do.bash 
+cd ../
