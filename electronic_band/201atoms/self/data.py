@@ -360,7 +360,7 @@ class CrystalGraphDataset(Dataset):
             for i in range(len(list_image)):
                 image=list_image[i] 
 
-                compare = 1
+                compare = 0
                 compare = int(compare)
 
                 if(ai<int(num/3) and i==4):
